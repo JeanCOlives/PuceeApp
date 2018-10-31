@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="multiples.com.multiwebview">
+    package="com.grupo1.puceeapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,18 +11,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.grupo1.puceeapp.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".second"
+        <activity android:name="com.grupo1.puceeapp.AulaVirtual"
             android:theme="@style/Theme.AppCompat.NoActionBar"/>
-        <activity android:name=".third" android:theme="@style/Theme.AppCompat.NoActionBar"/>
-        <activity android:name=".four" android:theme="@style/Theme.AppCompat.NoActionBar"/>
-        <activity android:name=".five" android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity android:name="com.grupo1.puceeapp.Biblioteca" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name="com.grupo1.puceeapp.Intranet" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name="com.grupo1.puceeapp.Ubicacion" android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
     </application>
 
 </manifest>
