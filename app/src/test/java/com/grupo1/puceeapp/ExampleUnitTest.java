@@ -1,4 +1,4 @@
-package multiples.com.multiwebview;
+package com.grupo1.puceeapp;
 
 import org.junit.Test;
 

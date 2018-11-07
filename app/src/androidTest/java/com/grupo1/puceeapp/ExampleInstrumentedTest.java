@@ -1,4 +1,4 @@
-package multiples.com.multiwebview;
+package com.grupo1.puceeapp;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("multiples.com.multiwebview", appContext.getPackageName());
+        assertEquals("com.grupo1.puceeapp", appContext.getPackageName());
     }
 }

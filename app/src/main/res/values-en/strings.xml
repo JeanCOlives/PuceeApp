@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="titulo_activity_congreso">Congress</string>
+    <string name="congreso_text">Systems Engineering Congress 2018</string>
+    <string name="titulo_activity_aulavirtual">Virtual-Classroom Web</string>
+    <string name="titulo_activity_ubicacion">Location</string>
+    <string name="titulo_activity_biblioteca">Library</string>
+    <string name="titulo_activity_intranet">Intranet</string>
+    <string name="floatingbutton_texto">coming soon...</string>
+</resources>

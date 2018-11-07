@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="congreso_text">Systemtechnik-Kongress 2018</string>
+    <string name="titulo_activity_aulavirtual">virtuelles Klassenzimmer</string>
+    <string name="titulo_activity_ubicacion">Standort</string>
+    <string name="titulo_activity_biblioteca">Bibliothek</string>
+    <string name="titulo_activity_intranet">internes Netzwerk</string>
+    <string name="titulo_activity_congreso">Kongress</string>
+    <string name="floatingbutton_texto">kommt bald...</string>
+</resources>

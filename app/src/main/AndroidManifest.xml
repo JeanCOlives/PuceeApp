@@ -11,18 +11,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.grupo1.puceeapp.MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.grupo1.puceeapp.AulaVirtual"
-            android:theme="@style/Theme.AppCompat.NoActionBar"/>
-        <activity android:name="com.grupo1.puceeapp.Biblioteca" android:theme="@style/Theme.AppCompat.NoActionBar"/>
-        <activity android:name="com.grupo1.puceeapp.Intranet" android:theme="@style/Theme.AppCompat.NoActionBar"/>
-        <activity android:name="com.grupo1.puceeapp.Ubicacion" android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+
+        <activity
+            android:name=".AulaVirtual"
+            android:label="@string/titulo_activity_aulavirtual"
+            />
+        <activity android:name=".Biblioteca"
+            android:label="@string/titulo_activity_biblioteca"
+            />
+        <activity android:name=".Intranet"
+            android:label="@string/titulo_activity_intranet"
+            />
+        <activity android:name=".Ubicacion"
+            android:label="@string/titulo_activity_ubicacion"
+            />
+        <activity
+            android:name=".Congreso"
+            android:label="@string/titulo_activity_congreso"></activity>
     </application>
 
 </manifest>

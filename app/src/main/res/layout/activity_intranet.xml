@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".third">
+    tools:context=".Intranet">
 
     <WebView
-        android:id="@+id/wbiblioteca"
+        android:id="@+id/wintranet"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
